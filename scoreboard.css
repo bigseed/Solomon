@@ -1,0 +1,72 @@
+.score-container {
+    float: right;
+    text-align: center;
+    border: solid 5px black;
+    background-color: gray;
+    border-radius: 20px;
+    width: 53%;
+    height: 96%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.score-container > .title {
+    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    border-bottom: solid 5px white;
+}
+.score-container > .scoreboard-container1-5 > .scoreboard1-5 {
+    list-style: none;
+    text-align: left;
+}
+.score-container > .scoreboard-container1-5 > .scoreboard1-5 > .first {
+    font-weight: bold;
+    font-size: 55px;
+    color: #FFD700;
+}
+.score-container > .scoreboard-container1-5 > .scoreboard1-5 > .second {
+    font-weight: bold;
+    font-size: 47px;
+    color: rgb(155, 163, 170);
+}
+.score-container > .scoreboard-container1-5 > .scoreboard1-5 > .third {
+    font-weight: bold;
+    font-size: 42px;
+    color: #DEB887;
+}
+.score-container > .scoreboard-container1-5 > .scoreboard1-5 > .fourth {
+    font-weight: bold;
+    font-size: 37px;
+    color: white;
+}
+.score-container > .scoreboard-container1-5 > .scoreboard1-5 > .fifth {
+    font-weight: bold;
+    font-size: 37px;
+    color: white;
+}
+.score-container > .scoreboard-container6-10 {
+    float: left;
+}
+.score-container > .scoreboard-container6-10 > .scoreboard6-10 {
+    list-style: none;
+    text-align: left;
+}
+.score-container > .scoreboard-container6-10 > .scoreboard6-10 > li {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+.score-container > .scoreboard-container11-15 {
+    position: absolute;
+    left: 1100px;
+    bottom: 80px;
+}
+.score-container > .scoreboard-container11-15 > .scoreboard11-15 {
+    list-style: none;
+    text-align: left;
+}
+.score-container > .scoreboard-container11-15 > .scoreboard11-15 > li {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}

@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.input-container {
+    height: 55%;
+    width: 43%;
+    padding-top: 50px;
+    background-color: gray;
+    border: solid 5px black;
+    border-radius: 20px;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.input-container > .title {
+    font-weight: bold;
+    font-size: 45px;
+    color: white;
+}
+.input-container > .inputs > .form {
+    padding-top: 70px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-container > .inputs > .form > .input {
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px white;
+    font-weight: bold;
+    font-size: 25px;
+    transform: translateX(-35%);
+}
+.input-container > .inputs > .form > .input::placeholder {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}

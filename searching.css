@@ -1,0 +1,56 @@
+.searching-box {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    float: left;
+    height: 30%;
+    width: 43%;
+    border: solid 5px black;
+    border-radius: 20px;
+    background-color: gray;
+}
+.searching-box > .title {
+    margin-top:15px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+.searching-box > .searching-container {
+    padding-top: 50px;
+    float: left;
+}
+.searching-box > .searching-container > .searching-form {
+    width: 100px;
+    float: right;
+    transform: translateY(50px);
+    margin-left: 50px;
+}
+.searching-box > .searching-container > .searching-form > .searching {
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid 2px white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.searching-box > .searching-container > .searching-form > .searching::placeholder {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.searching-box > .grade-container {
+    float: right;
+    transform: translateY(80px);
+}
+.searching-box > .grade-container > .grade {
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    margin-right: 70px;
+}
