@@ -104,6 +104,7 @@ function loadScore() {
 function init() {
     loadScore();
     nameForm.addEventListener('keyup', nameSubmit);
+    nameForm.addEventListener('submit', nameSubmit);
     priceForm.addEventListener('submit', priceSubmit);
 }
 init();

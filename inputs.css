@@ -3,7 +3,7 @@ html, body {
     margin: 0;
 }
 .input-container {
-    height: 55%;
+    height: 53%;
     width: 43%;
     padding-top: 50px;
     background-color: gray;
@@ -16,17 +16,18 @@ html, body {
 }
 .input-container > .title {
     font-weight: bold;
-    font-size: 45px;
+    font-size: 55px;
     color: white;
 }
 .input-container > .inputs > .form {
     padding-top: 70px;
-    width: 100px;
+    width: 150px;
+    height: 50px;
     margin-left: auto;
     margin-right: auto;
 }
 .input-container > .inputs > .form > .input {
-    height: 30px;
+    height: 40px;
     background-color: rgba(255, 255, 255, 0);
     text-align: center;
     border-top: none;
@@ -34,11 +35,11 @@ html, body {
     border-left: none;
     border-bottom: solid 2px white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
     transform: translateX(-35%);
 }
 .input-container > .inputs > .form > .input::placeholder {
     color: white;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
 }
